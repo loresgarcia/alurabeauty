@@ -1,7 +1,8 @@
 :root {
 	--font: 'Comfortaa', cursive;
 	--font-peso-botao: 500;
-	--cor-primaria: #000000;;
+	--cor-primaria: #000000;
+	;
 	--cor-secundaria: #FEE8D6;
 	--hover-color: #F3A38A;
 	--cor-primaria-transparente: #00000052;
@@ -9,7 +10,7 @@
 
 body {
 	font-family: var(--font);
-	background: linear-gradient(0deg, rgba(236,236,236,1) 19%, rgba(247,245,246,1) 29%);
+	background: linear-gradient(0deg, rgba(236, 236, 236, 1) 19%, rgba(247, 245, 246, 1) 29%);
 }
 
 
@@ -119,7 +120,7 @@ form legend {
 	display: block;
 	font-size: 20px;
 	margin: 10px 10px;
-	
+
 }
 
 .input-padrao {
@@ -189,6 +190,7 @@ th {
 	text-align: center;
 	width: auto;
 }
+
 
 /* css da página inicial */
 .banner {
@@ -293,6 +295,16 @@ th {
 	.mapa-conteudo,
 	.video {
 		width: auto;
+		margin: 5px 5px;
+	}
+
+	#missao {
+		text-align: center;
+	}
+
+	.paragrafo__texto {
+		text-align: center;
+		margin-bottom: 5px;
 	}
 
 	h1 {
@@ -302,7 +314,10 @@ th {
 	img {
 		margin-bottom: 10px;
 	}
-	
+
+	.mapa {
+		margin-top: 2px;
+	}
 	nav {
 		position: static;
 		text-align: center;
@@ -313,7 +328,7 @@ th {
 		justify-content: space-between;
 		align-items: center;
 		margin-right: 10px;
-		
+
 	}
 
 	.lista-beneficios,
