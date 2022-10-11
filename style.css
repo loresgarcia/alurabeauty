@@ -85,7 +85,7 @@ nav a:hover::before {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
-	height: 40%;
+	height: 320px;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
@@ -159,9 +159,19 @@ form legend {
 	border-radius: 5px;
 }
 
+input:focus {
+    outline: none;
+}
+
 textarea {
 	border: none;
 	border-radius: 5px;
+	max-height: 60px;
+    max-width: 536px;
+}
+
+textarea:focus {
+    outline: none;
 }
 
 select {
@@ -180,7 +190,6 @@ select {
 }
 
 .enviar {
-	width: 60%;
 	padding: 10px;
 	background: var(--cor-secundaria);
 	color: var(--cor-primaria);
@@ -191,6 +200,9 @@ select {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    width: 165px;
 }
 
 .enviar:hover {
@@ -198,9 +210,10 @@ select {
 	transform: scale(1.0);
 }
 
-table {
+.tabela-horarios {
 	margin: 20px 0 40px;
-	width: 60%;
+	width: 50%;
+	border-radius: 10px;
 }
 
 thead {
